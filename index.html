@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Prince Tiwari — Portfolio</title>
+  <meta name="description" content="Prince Tiwari — B.Tech (Cyber Security) student. Projects: Decentralized IDS for IoT, Chat System, Phishing Email Detection using AI." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#f7f7f9;--card:#ffffff;--muted:#6b7280;--accent:#0b63ff;--border:#e6e7ee}
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial;color:#0f172a;background:linear-gradient(180deg,var(--bg),#ffffff)}
+    a{color:var(--accent);text-decoration:none}
+    .container{max-width:1100px;margin:32px auto;padding:28px;border-radius:12px;background:var(--card);box-shadow:0 6px 22px rgba(12,14,25,.06);border:1px solid var(--border);display:grid;grid-template-columns:320px 1fr;gap:28px}
+
+    /* Sidebar */
+    .sidebar{padding:18px}
+    .name{font-size:22px;font-weight:800;letter-spacing:.6px;margin-bottom:6px}
+    .role{font-size:13px;color:var(--muted);margin-bottom:14px}
+    .contact{font-size:14px;color:#111827}
+    .contact a{display:inline-block;margin:6px 0}
+    .avatar{width:100%;height:180px;background:linear-gradient(135deg,#eef2ff,#fff);border-radius:10px;display:flex;align-items:center;justify-content:center;color:#111827;font-weight:700}
+    .section{margin-top:18px}
+    .section h3{font-size:14px;margin:0 0 10px 0;padding-bottom:6px;border-bottom:2px solid var(--border);text-transform:uppercase;font-weight:700}
+    .meta{font-size:13px;color:var(--muted);margin-top:6px}
+    .skill-list{list-style:none;padding:0;margin:8px 0 0 0}
+    .skill-list li{background:#f3f4f6;padding:8px 10px;border-radius:6px;margin:6px 0;font-size:14px}
+
+    /* Main */
+    .main{padding:18px}
+    .topline{display:flex;align-items:center;justify-content:space-between}
+    .projects{display:grid;grid-template-columns:1fr;gap:18px;margin-top:12px}
+    .card{background:linear-gradient(180deg,#ffffff, #fbfdff);border-radius:10px;padding:14px;border:1px solid var(--border);box-shadow:0 4px 14px rgba(11,99,255,.03)}
+    .card h4{margin:0 0 8px 0}
+    .muted{color:var(--muted);font-size:13px}
+    ul.bullets{padding-left:18px;margin:8px 0}
+    ul.bullets li{margin:8px 0}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+
+    /* Footer / actions */
+    .actions{display:flex;gap:10px;margin-top:12px}
+    .btn{padding:10px 12px;border-radius:8px;border:1px solid var(--border);background:transparent;cursor:pointer;font-weight:600}
+    .btn-primary{background:var(--accent);color:white;border:none}
+
+    /* Responsive */
+    @media (max-width:920px){.container{grid-template-columns:1fr;padding:18px}.avatar{height:140px}.two-col{grid-template-columns:1fr}.sidebar{order:2}.main{order:1}}
+  </style>
+</head>
+<body>
+  <main class="container" role="main">
+    <aside class="sidebar">
+      <div class="avatar">
+        <div style="text-align:center">
+          <div style="font-size:20px">PRINCE TIWARI</div>
+          <div style="font-size:12px;color:var(--muted)">B.Tech — Cyber Security</div>
+        </div>
+      </div>
+
+      <div style="margin-top:12px">
+        <div class="name">Prince Tiwari</div>
+        <div class="role">Student — Cyber Security | Aspiring Security Researcher</div>
+        <div class="contact">
+          <div>📞 <a href="tel:+918148881055">+91-8148881055</a></div>
+          <div>✉️ <a href="mailto:princetiwari98182@gmail.com">princetiwari98182@gmail.com</a></div>
+          <div>🔗 <a href="https://github.com/prince-208" target="_blank">github.com/prince-208</a></div>
+          <div>📍 Chennai, Tamil Nadu, India</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h3>Education</h3>
+        <div style="font-weight:700">Amrita Vishwa Vidyapeetham</div>
+        <div class="meta">B.Tech — Computer Science & Engineering (Cyber Security)</div>
+        <div class="meta">Aug 2022 — Jun 2026 · Chennai, India</div>
+
+        <div style="margin-top:10px;font-weight:700">Himalayan Secondary School</div>
+        <div class="meta">Senior Secondary School · Jul 2019 — Aug 2021 · Birgunj, Nepal</div>
+      </div>
+
+      <div class="section">
+        <h3>Skills</h3>
+        <ul class="skill-list">
+          <li><strong>Programming:</strong> C++, C, Python</li>
+          <li><strong>Web:</strong> HTML, CSS, JavaScript</li>
+          <li><strong>DB:</strong> MySQL, MongoDB</li>
+          <li><strong>ML:</strong> Pandas, NumPy, Keras</li>
+          <li><strong>Cyber Security:</strong> Wireshark, Burp Suite, Nmap</li>
+          <li><strong>Cryptography:</strong> AES, DES, RSA</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h3>Certifications</h3>
+        <div class="meta">Internet of Things (IoT) — NPTEL</div>
+        <div class="meta">AWS Certified Cloud Practitioner — AWS</div>
+        <div class="meta">Foundation of Cybersecurity — Infosys</div>
+        <div class="meta">Fundamentals of Cryptography — Infosys</div>
+      </div>
+
+    </aside>
+
+    <section class="main">
+      <div class="topline">
+        <div>
+          <h2 style="margin:0">Projects & Experience</h2>
+          <div class="muted">Selected projects, research and professional experience</div>
+        </div>
+        <div class="actions">
+          <a class="btn btn-primary" href="/prince_tiwari_resume.pdf" download>Download Resume</a>
+          <button class="btn" id="contactBtn">Contact</button>
+        </div>
+      </div>
+
+      <div class="projects">
+
+        <article class="card">
+          <h4>Decentralized IDS for IoT — Blockchain-Backed Federated Learning</h4>
+          <div class="muted">Tools: Python, Flask, Ethereum, Docker · Jul 2025 — Oct 2025</div>
+          <ul class="bullets">
+            <li>Designed a decentralized IDS that secures IoT networks using <strong>Federated Learning</strong> and <strong>Blockchain</strong> integration.</li>
+            <li>Enabled privacy-preserving model training across IoT nodes without sharing raw data.</li>
+            <li>Implemented a <strong>blockchain ledger</strong> to record and verify model updates, ensuring trust and transparency.</li>
+            <li>Achieved <strong>92% detection accuracy</strong> on IoT attack datasets (CICIDS2017) with reduced latency.</li>
+            <li>Deployed the prototype using <strong>Dockerized microservices</strong> for scalability and interoperability.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h4>Chat System</h4>
+          <div class="muted">Tools: Node.js, JavaScript, MongoDB, HTML, CSS · Feb 2024 — May 2024</div>
+          <ul class="bullets">
+            <li>Developed a real-time chat system using <strong>Node.js</strong> supporting <strong>1,000+ simultaneous users</strong>.</li>
+            <li>Implemented end-to-end <strong>AES encryption</strong>, ensuring 100% secure message transmission.</li>
+            <li>Optimized backend, reducing message delivery latency to <strong>&lt;100ms</strong>.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h4>Advanced Phishing Email Detection Using AI</h4>
+          <div class="muted">Tools: Python, Machine Learning, NLP, scikit-learn · Jan 2025</div>
+          <ul class="bullets">
+            <li>Developed an AI-based phishing detection system that achieved <strong>95% accuracy</strong> on a dataset of 5,000+ emails.</li>
+            <li>Implemented <strong>NLP</strong> to extract features from 10,000+ email texts for analysis.</li>
+            <li>Trained models (Random Forest, SVM) and reduced false positives by <strong>30%</strong> compared to baseline.</li>
+          </ul>
+        </article>
+
+      </div>
+
+      <div style="margin-top:18px">
+        <h3 style="margin-bottom:8px">Experience</h3>
+        <div class="two-col">
+          <div class="card">
+            <strong>Digital Marketing Intern</strong>
+            <div class="muted">Sara Worldwide Business Pvt. Ltd. · May 2021 — Jul 2021 · Nepal</div>
+            <ul class="bullets">
+              <li>Executed targeted social media campaigns, increasing follower engagement by <strong>35%</strong> within three months.</li>
+              <li>Optimized SEO and content strategy, boosting website traffic by <strong>28%</strong> and improving search rankings.</li>
+              <li>Designed and scheduled digital content, enhancing brand visibility and expanding customer reach by <strong>40%</strong>.</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <strong>Project Management</strong>
+            <div class="muted">SODEC Nepal · May 2020 — Feb 2021 · Nepal</div>
+            <ul class="bullets">
+              <li>Managed 3+ development projects impacting over <strong>5,000</strong> beneficiaries in underserved communities.</li>
+              <li>Oversaw a project budget of 50,000, ensuring optimal allocation and reducing costs by <strong>15%</strong> through resource planning.</li>
+              <li>Conducted project evaluations, achieving a <strong>90%</strong> satisfaction rate among stakeholders and community members.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top:18px" class="card">
+        <h3 style="margin:6px 0">Publications</h3>
+        <div class="muted">Selected work</div>
+        <ul class="bullets">
+          <li><strong>Federated Learning and Blockchain Integration for Secure IoT Intrusion Detection</strong></li>
+          <li><strong>Pioneering Maize Health:</strong> A YOLOv8-based Approach for Maize Pest Identification and Classification</li>
+        </ul>
+      </div>
+
+      <div style="margin-top:18px;text-align:center;color:var(--muted);font-size:13px">
+        Built with ❤️ — Prince Tiwari · <a href="https://github.com/prince-208" target="_blank">github.com/prince-208</a>
+      </div>
+
+    </section>
+  </main>
+
+  <!-- Contact modal (simple) -->
+  <div id="contactModal" style="display:none;position:fixed;inset:0;background:rgba(2,6,23,.55);align-items:center;justify-content:center;padding:20px">
+    <div style="max-width:520px;width:100%;background:#fff;padding:18px;border-radius:10px;border:1px solid var(--border)">
+      <h3 style="margin:0 0 6px 0">Contact Prince</h3>
+      <p class="muted">Send a quick message — this opens your email client.</p>
+      <form id="contactForm">
+        <div style="display:flex;gap:8px;margin-bottom:8px">
+          <input required placeholder="Your name" name="name" style="flex:1;padding:10px;border:1px solid var(--border);border-radius:8px" />
+          <input required type="email" placeholder="Your email" name="email" style="flex:1;padding:10px;border:1px solid var(--border);border-radius:8px" />
+        </div>
+        <textarea required name="message" placeholder="Message" rows="5" style="width:100%;padding:10px;border-radius:8px;border:1px solid var(--border)"></textarea>
+        <div style="display:flex;gap:8px;justify-content:flex-end;margin-top:10px">
+          <button type="button" id="closeModal" class="btn">Close</button>
+          <button type="submit" class="btn btn-primary">Send Email</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    // Modal handling
+    const contactBtn = document.getElementById('contactBtn');
+    const modal = document.getElementById('contactModal');
+    const closeModal = document.getElementById('closeModal');
+    contactBtn.addEventListener('click', ()=> modal.style.display = 'flex');
+    closeModal.addEventListener('click', ()=> modal.style.display = 'none');
+    window.addEventListener('click', (e)=>{ if(e.target===modal) modal.style.display='none' });
+
+    // Form submit -> open mailto
+    document.getElementById('contactForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      const form = new FormData(this);
+      const name = form.get('name');
+      const email = form.get('email');
+      const message = form.get('message');
+      const subject = encodeURIComponent('Portfolio inquiry from ' + name);
+      const body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\n' + message);
+      window.location.href = `mailto:princetiwari98182@gmail.com?subject=${subject}&body=${body}`;
+    });
+  </script>
+</body>
+</html>
